@@ -2,7 +2,7 @@
 
 from pwn import *
 from termcolor import colored
-import request
+import requests
 import sys
 import signal
 import string
