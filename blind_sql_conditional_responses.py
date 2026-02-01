@@ -14,8 +14,9 @@ MAX_LEN      = 50
 THREADS      = 10     # requests en paralelo por posición
 TIMEOUT      = 10
 
-
+# ─────────────────────────────────────────────
 # Input interactivo
+# ─────────────────────────────────────────────
 
 def get_config():
     print(colored("\n" + "═"*50, 'cyan'))
